@@ -1,15 +1,14 @@
 <template>
-  <div class="navbar center">
+  <header class="center">
     <div class="brand">Jello</div>              
-      <div class="navbar-links">
-        <ul class="center">
-          <li> Get Started </li>
-          <li> Components </li>
-          <li> Github </li>
-        </ul>
-      </div> 
-    </div>
-  </div>
+    <nav>
+      <ul class="center">
+        <li> Get Started </li>
+        <li> Components </li>
+        <li> Github </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>

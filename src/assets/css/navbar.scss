@@ -1,4 +1,4 @@
-.navbar {
+header {
     flex-flow: row wrap;
     height: 90px;
     padding: 0 10rem;
@@ -25,10 +25,10 @@
         }
     }
 
-    .navbar-links {
+    nav {
         overflow-x: auto;
 
-        ul, li{ 
+        ul, li { 
             margin: 0px 1rem;
             color: darken($color: $lightgreen, $amount: 10);                
             border: 1px solid transparent;

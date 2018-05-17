@@ -1,9 +1,9 @@
 <template>
-  <div class="about-container">
-    <div class="heading"> 
+  <main>
+    <h1> 
       Beautifully crafted frontend components
-    </div>
-  </div>             
+    </h1>
+  </main>             
 </template>
 
 
