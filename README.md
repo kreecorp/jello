@@ -1,2 +1,2 @@
 # Jello
-:fire: :worm: Minimalist frontend components
+:fire: :zap: Minimalist frontend components
