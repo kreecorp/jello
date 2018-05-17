@@ -1,17 +1,32 @@
-.navbar{ 
-    height: 70px;
+.navbar {
+    flex-flow: row wrap;
+    height: 90px;
+    padding: 0 10rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+    @media (max-width: 850px) {
+        padding: 0 2.5rem;
+    }
+
+    @media (max-width: 550px) {
+        padding: 0;
+    }
 
     .brand {
         margin-right: auto;
-        margin-left: 10rem;
         font-size: 2rem;
         font-family: "Sans-Regular";
         color: lighten($color: $blueblack, $amount: 10);        
+
+        @media (max-width: 550px) {
+            text-align: center;
+            font-size: 1.5rem;
+            width: 100%;
+        }
     }
 
     .navbar-links {
-        margin-right: 10rem;
+        overflow-x: auto;
 
         ul, li{ 
             margin: 0px 1rem;
