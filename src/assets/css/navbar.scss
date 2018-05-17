@@ -1,38 +1,33 @@
 .navbar{ 
     height: 70px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .06);
-
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 
     .brand {
         margin-right: auto;
         margin-left: 8rem;
         font-size: 2rem;
         font-family: "Sans-Regular";
-        color:lighten($color:$blueblack, $amount: 10);        
-     }
+        color: lighten($color: $blueblack, $amount: 10);        
+    }
 
-     .navbar-links{ 
-                margin-right: 10rem;
+    .navbar-links {
+        margin-right: 10rem;
 
-            ul ,  li{ 
-                // outline: 1px solid red;                
-                margin: 0px 1rem;
-                color: darken($color: $lightgreen, $amount: 10);                
-                border: 1px solid transparent;
-                cursor: pointer;
+        ul, li{ 
+            margin: 0px 1rem;
+            color: darken($color: $lightgreen, $amount: 10);                
+            border: 1px solid transparent;
+            cursor: pointer;
 
-                li { 
-                    // background: $grey;
-                    padding: 5px;
+            li { 
+                padding: 5px;
 
-
-                    &:nth-child(2){
-                        border: 1px solid lighten($color:$blueblack, $amount: 10);
-                        border-radius: 2px;
-                        color: lighten($color:$blueblack, $amount: 10);
-                    }
-                    }
+                &:nth-child(2) {
+                    border: 1px solid lighten($color: $blueblack, $amount: 10);
+                    border-radius: 2px;
+                    color: lighten($color: $blueblack, $amount: 10);
+                }
             }
-     }
-
+        }
+    }
 }

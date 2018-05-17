@@ -1,11 +1,9 @@
-.footer-container{ 
-            // padding: 2.5rem 5rem;
-            // outline: 1px solid red;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 0;
-            background: lighten($color: $lightgreen, $amount: 20);            
-            min-height: 8.1rem;
-            font-family: "Damain-Regular";
+.footer-container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: lighten($color: $lightgreen, $amount: 20);            
+    min-height: 8.1rem;
+    font-family: "Damain-Regular";
 }

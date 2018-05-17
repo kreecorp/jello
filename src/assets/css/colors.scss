@@ -1,60 +1,58 @@
-
-    $blue: #003666;
-    $blueblack: #051736;
-    $lightblue: #005be2;
-    $black: #59626a;
-    $grey: #8996a0;
-    $ash: #47525d;
-    $orange: #ff6c5f;
-    $pink: #990033;
-    $insta: #bf0d3e;
-    $lightgreen: #00ad45;
-    $darkgreen: #005238;
-    $green: #057855;
-    $yellow: #feba02;
-    $lightyellow: #fbbc05;
-    $darkyellow: #f79400;
-    $red: #FF0000;
-    $lightred: #ea4335;
-    $darkred: #990000;
-    $defaultFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$blue: #003666;
+$blueblack: #051736;
+$lightblue: #005be2;
+$black: #59626a;
+$grey: #8996a0;
+$ash: #47525d;
+$orange: #ff6c5f;
+$pink: #990033;
+$insta: #bf0d3e;
+$lightgreen: #00ad45;
+$darkgreen: #005238;
+$green: #057855;
+$yellow: #feba02;
+$lightyellow: #fbbc05;
+$darkyellow: #f79400;
+$red: #FF0000;
+$lightred: #ea4335;
+$darkred: #990000;
+$defaultFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 /* Blue */
-.blue{ 
+.blue {
     color: $blue;
 }
 .blueblack {
     color: $blueblack;
 }
-.lightblue{ 
+.lightblue {
     color: $lightblue;
 }
 
 /* Black */
-.black{ 
+.black {
     color: black;
 }
-.grey{ 
+.grey {
     color: $grey;
 }
-.ash{ 
+.ash {
     color: $ash;
 }
 
-
-/* Orange  & Pink*/
-.orange{
+/* Orange & Pink */
+.orange {
     color: $orange;
 }
-.pink{
+.pink {
     color: $pink;
 }
-.insta{ 
+.insta { 
     color: $insta;
 }
 
 /* Green */
-.green{ 
+.green { 
     color: $green;
 }
 .darkgreen {
@@ -68,20 +66,20 @@
 .yellow {
     color: $yellow;
 }
-.lightyellow{ 
+.lightyellow { 
     color: $lightyellow;
 }
-.darkyellow{ 
+.darkyellow {
     color: $darkyellow;
 }
 
 /* Red */
-.red{ 
+.red {
     color: $red;
 }
-.lightred{
+.lightred {
     color: $lightred;
 }
-.darkred{ 
+.darkred {
     color: $darkred;
 }
