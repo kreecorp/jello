@@ -1,0 +1,19 @@
+.about-container {
+        padding: 2.5rem 5rem;
+        // outline: 1px solid red;
+        height: calc( 100vh - 280px) ;
+
+
+        .heading{ 
+                color:lighten($color:$blueblack, $amount: 10);                
+                text-align: center;
+                font-size: 2.6rem;
+
+                &::before {
+                    content:"";
+                    outline: 1px solid red;
+                    width: 10px !important;
+                    height: 10px !important;
+                }
+        }
+}
