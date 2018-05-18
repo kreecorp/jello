@@ -1,6 +1,6 @@
 <template>
   <header class="center">
-    <div class="brand">Jello</div>              
+    <div class="brand">Jello</div>
     <nav>
       <ul class="center">
         <li> Get Started </li>
@@ -12,9 +12,9 @@
 </template>
 
 <script>
-  export default {
-    name: "Navbar"
-  };
+export default {
+  name: "Navbar"
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

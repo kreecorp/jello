@@ -2,57 +2,47 @@ main {
     padding: 5.5rem 10rem;
     height: calc(100vh - 386px);
     overflow-y: auto;
-    
     @media (max-width: 850px) {
         padding: 2.5rem;
     }
-
     h1 {
         text-align: center;
         font-size: 2.5rem;
         font-weight: normal;
         text-transform: capitalize;
-        color: lighten($color: $blueblack, $amount: 10);                
-        
+        color: lighten($color: $blueblack, $amount: 10);
         &::before {
             content: "\026A1";
-            color: darken($color: $lightgreen, $amount: 10);            
+            color: darken($color: $lightgreen, $amount: 10);
         }
-        
         @media (max-width: 550px) {
             font-size: 2rem;
         }
     }
-
-
-    .about{ 
-                  p {
-                      font-family: "Augusta-Light";
-                      font-size: 1.3rem;
-                      line-height: 32px;
-                      color: #374964;
-                      margin: 20px;
-
-                      &::after {
-                          content: "\01F525";
-                           color: darken($color: $lightgreen, $amount: 10);
-                      }
-                  }
+    .about {
+        p {
+            font-family: "Augusta-Light";
+            font-size: 1.3rem;
+            line-height: 32px;
+            color: #374964;
+            margin: 20px;
+            &::after {
+                content: "\01F525";
+                color: darken($color: $lightgreen, $amount: 10);
+            }
+        }
     }
-
-    
     .get-started {
-            
-                button{ 
-                                       border: 1px solid lighten($color: $blueblack, $amount: 10);
-                                       border-radius: 2px;
-                                       color: lighten($color: $blueblack, $amount: 10);
-                                       width: 120px;
-                                       height: 35px;
-                                       margin: 20px;
-                                       background: transparent;
-                                       text-transform: capitalize;
-                                       cursor: url('../images/logo.png') , auto ;
-                }
+        button {
+            border: 1px solid lighten($color: $blueblack, $amount: 10);
+            border-radius: 2px;
+            color: lighten($color: $blueblack, $amount: 10);
+            width: 120px;
+            height: 35px;
+            margin: 20px;
+            background: transparent;
+            text-transform: capitalize;
+            cursor: url('../images/logo.png'), auto;
+        }
     }
 }
