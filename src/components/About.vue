@@ -6,7 +6,7 @@
     </h1>
 
     <p class="center">
-      Premuim designed frontend components with no configuration. <br>
+      Premium designed frontend components with no configuration. <br>
       Download what you need without any bloat of unneeded css
     </p>
 
