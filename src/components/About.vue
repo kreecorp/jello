@@ -5,17 +5,15 @@
       Beautifully crafted frontend components
     </h1>
 
-    <div class="about center">
-      <p>
-        Premuim designed frontend components with no configuration. <br>
-        Download what you need without any bloat of unneeded css
-      </p>
-    </div>
+    <p class="center">
+      Premuim designed frontend components with no configuration. <br>
+      Download what you need without any bloat of unneeded css
+    </p>
 
-    <div class="get-started center">
+    <p class="center">
       <button class="stats"> use cases </button>
       <button class="stats"> components</button>
-    </div>
+    </p>
 
   </main>
 </template>

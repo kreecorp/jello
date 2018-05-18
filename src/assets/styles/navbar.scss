@@ -15,8 +15,7 @@ header {
     .brand {
         margin-right: auto;
         font-size: 2rem;
-        font-family: "Sans-Regular";
-        color: lighten($color: $blueblack, $amount: 10);
+        color: $blue;
 
         @media (max-width: 550px) {
             text-align: center;
@@ -28,26 +27,22 @@ header {
     nav {
         overflow-x: auto;
 
-        ul,
-        li {
-            margin: 0px 1rem;
+        ul li {
+            margin: 0 0.5rem;
+            padding: 7px;
             color: $lightgreen;
             border: 1px solid transparent;
+            border-radius: 2px;
             cursor: pointer;
+            transition: border-color 0.3s;
 
-            li {
-                padding: 5px;
-                transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover {
+                border-color: lighten($color: $grey, $amount: 20)
+            }
 
-                &:hover {
-                    font-style: italic;
-                }
-
-                &:nth-child(2) {
-                    border: 1px solid lighten($color: $blueblack, $amount: 10);
-                    border-radius: 2px;
-                    color: lighten($color: $blueblack, $amount: 10);
-                }
+            &:nth-child(2) {
+                border-color: $blue;
+                color: $blue;
             }
         }
     }
