@@ -1,8 +1,8 @@
 main {
     padding: 5.5rem 10rem;
-    // height: calc(100vh - 386px);
+    height: calc(100vh - 386px);
     overflow-y: auto;
-
+    
     @media (max-width: 850px) {
         padding: 2.5rem;
     }
@@ -16,7 +16,6 @@ main {
         
         &::before {
             content: "\026A1";
-            // outline: 1px solid red;
             color: darken($color: $lightgreen, $amount: 10);            
         }
         
@@ -34,22 +33,16 @@ main {
                       color: #374964;
                       margin: 20px;
 
-
                       &::after {
                           content: "\01F525";
-                           color: darken($color: $lightgreen, $amount: 10);                        
-                        //    outline: 1px solid red;
-                           margin-top: -4px;
-                           position: absolute;
+                           color: darken($color: $lightgreen, $amount: 10);
                       }
                   }
     }
 
     
-    .get-started { 
-                // outline: 1px solid red;
-                // margin: 20px;
-
+    .get-started {
+            
                 button{ 
                                        border: 1px solid lighten($color: $blueblack, $amount: 10);
                                        border-radius: 2px;
