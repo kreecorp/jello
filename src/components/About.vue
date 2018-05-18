@@ -7,7 +7,8 @@
 
     <p class="center">
       Premium designed frontend components with no configuration. <br>
-      Download what you need without any bloat of unneeded css
+      Download only what you need, no overhead CSS or JS.
+      &#x1F525;
     </p>
 
     <p class="center">
