@@ -8,12 +8,13 @@
     margin: 0;
     padding: 0;
     font-family: "Sans-Regular", $default-font;    
+    outline: 1px solid red;
 }
 
 #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 100vh;
+    // height: 100vh;
 }
 
 a {
@@ -30,4 +31,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@function get-vh($object) {
+    $vh: (768 * 0.01) * 1px;
+    @return ($object / $vh) * 1vh;
 }

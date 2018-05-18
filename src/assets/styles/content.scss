@@ -1,6 +1,6 @@
 main {
-    padding: 2.5rem 10rem;
-    height: calc(100vh - 260px);
+    padding: 5.5rem 10rem;
+    // height: calc(100vh - 386px);
     overflow-y: auto;
 
     @media (max-width: 850px) {
@@ -8,20 +8,58 @@ main {
     }
 
     h1 {
-        color: lighten($color: $blueblack, $amount: 10);                
         text-align: center;
         font-size: 2.5rem;
         font-weight: normal;
-
+        text-transform: capitalize;
+        color: lighten($color: $blueblack, $amount: 10);                
+        
         &::before {
-            content: "";
-            outline: 1px solid red;
-            width: 10px !important;
-            height: 10px !important;
+            content: "\026A1";
+            // outline: 1px solid red;
+            color: darken($color: $lightgreen, $amount: 10);            
         }
-
+        
         @media (max-width: 550px) {
             font-size: 2rem;
         }
+    }
+
+
+    .about{ 
+                  p {
+                      font-family: "Augusta-Light";
+                      font-size: 1.3rem;
+                      line-height: 32px;
+                      color: #374964;
+                      margin: 20px;
+
+
+                      &::after {
+                          content: "\01F525";
+                           color: darken($color: $lightgreen, $amount: 10);                        
+                        //    outline: 1px solid red;
+                           margin-top: -4px;
+                           position: absolute;
+                      }
+                  }
+    }
+
+    
+    .get-started { 
+                // outline: 1px solid red;
+                // margin: 20px;
+
+                button{ 
+                                       border: 1px solid lighten($color: $blueblack, $amount: 10);
+                                       border-radius: 2px;
+                                       color: lighten($color: $blueblack, $amount: 10);
+                                       width: 120px;
+                                       height: 35px;
+                                       margin: 20px;
+                                       background: transparent;
+                                       text-transform: capitalize;
+                                       cursor: url('../images/logo.png') , auto ;
+                }
     }
 }

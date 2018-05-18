@@ -1,5 +1,8 @@
 footer {
-    background: lighten($color: $lightgreen, $amount: 20);            
-    height: 90px;
+    background: $lightgreen;    
+    height: 120px;
     font-family: "Damain-Regular";
+        position: fixed;
+        bottom: 0;
+            z-index: 1;
 }

@@ -30,10 +30,10 @@ header {
 
         ul, li { 
             margin: 0px 1rem;
-            color: darken($color: $lightgreen, $amount: 10);                
+            color: $lightgreen;                
             border: 1px solid transparent;
             cursor: pointer;
-
+            
             li { 
                 padding: 5px;
 
