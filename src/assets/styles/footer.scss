@@ -1,5 +1,48 @@
 footer {
     background: $lightgreen;
-    height: 90px;
+    height: 100px;
     font-family: "Damain-Regular";
+    position: fixed;
+    padding: 40px 0px 0px 0px;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+
+    .about-us {
+        margin-right: auto;
+        .name {
+            font-size: 2rem;
+        }
+        .license {
+            font-size: 12px;
+            margin-left: 3px;
+        }
+    }
+    .links {
+        margin-right: auto;
+
+        a {
+            margin: 0px 10px;
+            font-size: 20px;
+        }
+    }
+
+    .copyright {
+        font-size: 12px;
+
+        line-height: 17.1429px;
+        font-family: "Damain-Regular";
+        span {
+            font-size: 20px;
+            position: relative;
+            top: 4px;
+            left: 3px;
+        }
+    }
+}
+
+.wrap {
+    padding: 5px 150px;
 }

@@ -1,6 +1,5 @@
 main {
     padding: 2.5rem 10rem;
-    height: calc(100vh - 180px - 5rem);
     overflow-y: auto;
 
     @media (max-width: 850px) {
@@ -30,7 +29,7 @@ main {
         font-size: 1.3rem;
         line-height: 2rem;
         margin: 2rem 0;
-        color: #374964;
+        color: $lightteal;
     }
 
     button {
