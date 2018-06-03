@@ -1,14 +1,16 @@
+@import 'em-mixin.scss';
+
 header {
     flex-flow: row wrap;
-    height: 90px;
+    height: em(90px);
     padding: 0 10rem;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 em(2px) em(4px) 0 rgba(0, 0, 0, 0.1);
 
-    @media (max-width: 850px) {
+    @media (max-width: em(850px)) {
         padding: 0 2.5rem;
     }
 
-    @media (max-width: 550px) {
+    @media (max-width: em(550px)) {
         padding: 0;
     }
 
@@ -17,7 +19,7 @@ header {
         font-size: 2rem;
         color: $blue;
 
-        @media (max-width: 550px) {
+        @media (max-width: em(550px)) {
             text-align: center;
             font-size: 1.5rem;
             width: 100%;
@@ -29,11 +31,10 @@ header {
 
         ul li {
             margin: 0 0.5rem;
-            padding: 7px;
-            color: $lightgreen
-;
+            padding: em(7px);
+            color: $lightgreen;
             border: 1px solid transparent;
-            border-radius: 2px;
+            border-radius: em(2px);
             cursor: pointer;
             transition: border-color 0.3s;
 

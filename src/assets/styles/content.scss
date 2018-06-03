@@ -1,3 +1,4 @@
+@import 'em-mixin.scss';
 main {
     padding: 2.5rem 10rem;
     overflow-y: auto;
@@ -35,13 +36,14 @@ main {
     button {
         color: $blue;
         border: 1px solid $blue;
-        border-radius: 2px;
-        width: 120px;
-        height: 35px;
+        border-radius: em(2px);
+        width: em(120px);
+        height: em(35px);
         margin: 0 1.5rem;
         font-size: 1rem;
         background: transparent;
         text-transform: capitalize;
         cursor: url('../images/logo.png'), auto;
+        outline: none;
     }
 }

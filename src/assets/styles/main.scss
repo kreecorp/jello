@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Sans-Regular", $default-font; // outline: 1px solid red;
+    font-family: "Sans-Regular", $default-font;
 }
 
 #app {
@@ -31,10 +31,4 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-@function get-vh($object) {
-    $vh: (768 * 0.01) * 1px;
-    @return ($object / $vh) * 1vh;
 }

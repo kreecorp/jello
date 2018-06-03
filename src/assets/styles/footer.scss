@@ -1,48 +1,64 @@
+@import 'em-mixin.scss';
+
 footer {
     background: $lightgreen;
-    height: 100px;
+    height: em(100px);
     font-family: "Damain-Regular";
     position: fixed;
-    padding: 40px 0px 0px 0px;
+    padding: em(40px) 0px 0px 0px;
     z-index: 100;
     bottom: 0;
     left: 0;
     width: 100%;
     color: white;
-
+    @media (max-width: em(375px)) {
+        text-align: center;
+        padding: em(10px) 0;
+    }
     .about-us {
         margin-right: auto;
+        @media (max-width: em(375px)) {
+            padding-bottom: em(10px);
+        }
         .name {
             font-size: 2rem;
         }
         .license {
-            font-size: 12px;
-            margin-left: 3px;
+            font-size: em(12px);
+            margin-left: em(3px);
+            color: darken($color: white, $amount: 15)
         }
     }
     .links {
         margin-right: auto;
-
+        @media (max-width: em(375px)) {
+            padding-bottom: em(5px);
+        }
         a {
-            margin: 0px 10px;
-            font-size: 20px;
+            margin: 0px em(10px);
+            font-size: em(20px);
         }
     }
 
     .copyright {
-        font-size: 12px;
-
-        line-height: 17.1429px;
+        font-size: em(12px);
+        line-height: em(17.1429px);
         font-family: "Damain-Regular";
         span {
-            font-size: 20px;
+            font-size: em(20px);
             position: relative;
-            top: 4px;
-            left: 3px;
+            top: em(4px);
+            left: em(2px);
         }
     }
 }
 
 .wrap {
     padding: 5px 150px;
+
+    @media (max-width: em(375px)) {
+        // outline: 1px solid red;
+        display: block !important;
+        padding: 0;
+    }
 }
